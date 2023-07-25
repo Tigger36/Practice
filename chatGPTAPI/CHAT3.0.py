@@ -58,7 +58,7 @@ class settings_frame(wx.Frame):
         self.label = wx.StaticText(settingsPanel, label="Please select a mode",style =wx.ALIGN_CENTER)
         settingsSizer.Add(self.label, 0, wx.ALIGN_CENTER_HORIZONTAL | wx.ALL, 5)
         settingsPanel.SetSizer(settingsSizer)
-
+ 
         self.radioButton1 = wx.RadioButton(settingsPanel, label="Standard")
         self.radioButton2 = wx.RadioButton(settingsPanel, label="Therapist")
         self.radioButton3 = wx.RadioButton(settingsPanel, label="Professor")
